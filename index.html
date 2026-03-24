@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0a0a0a">
-<title>PIX | The Probability Index</title>
+<title>PIX | The Probability Index | Master</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
@@ -885,24 +885,31 @@ body {
     <div class="section-inner">
         <div class="section-label reveal">The Question</div>
         <div class="section-title reveal reveal-delay-1">
-            The Most Universal Question<br>in Finance
+            One Question Drives <em>Everything</em>
         </div>
-        <p class="lead reveal reveal-delay-2">
-            Every investor, every risk manager, every allocator, every board of directors:
-            they are all asking the same question.
-            <span class="emphasis">What are the chances the market drops 10% before the end of the quarter?</span>
-            What are the chances Bitcoin breaks below $50,000? What are the chances oil spikes above $120 before winter?
-        </p>
-        <p class="body-text reveal reveal-delay-3" style="margin-top: 24px;">
-            This one question sits behind every risk decision in finance.
-            How much margin to post. Whether to hedge. When to de-risk.
-            Every risk engine in the financial universe is trying to answer it.
-        </p>
-        <p class="body-text reveal reveal-delay-3" style="margin-top: 20px;">
-            For thirty years, the best answer the financial markets could offer was <span class="emphasis">VIX</span>.
-            VIX at 26 means 26% annualized implied volatility on a 30-day forward variance swap. Ask a board of directors
-            what that means for their portfolio and you get silence.
-        </p>
+
+        <div class="highlight-card reveal reveal-delay-2">
+            <p style="font-size: 19px; color: var(--white); font-weight: 600; line-height: 1.6; margin-bottom: 20px;">
+                What are the chances the market drops 10% before the end of the quarter?
+            </p>
+            <p style="font-size: 16px; color: var(--text); margin-bottom: 20px;">
+                Every investor, every risk manager, every allocator, every board of directors is asking the same question.
+                <span style="color: var(--white); font-weight: 600; font-style: italic;">What are the chances?</span>
+                What are the chances Bitcoin breaks below $50,000? What are the chances oil spikes above $120 before winter?
+            </p>
+            <p style="font-size: 15px; color: var(--muted); line-height: 1.85; margin-bottom: 24px;">
+                This one question sits behind every risk decision in finance.
+                Margin ratios depend on it. Portfolio hedging depends on it. Clearing requirements depend on it.
+                Auto-liquidation thresholds depend on it. Every risk engine in the financial universe is trying to answer it.
+            </p>
+            <p style="font-size: 18px; color: var(--green); font-weight: 600; margin-bottom: 20px;">
+                PIX answers it.
+            </p>
+            <p style="font-size: 15px; color: var(--muted); line-height: 1.85;">
+                A continuous, constant-maturity probability index.
+                The trusted number that always answers the same question, no matter when you ask it.
+            </p>
+        </div>
     </div>
 </section>
 
@@ -929,9 +936,9 @@ body {
             </div>
         </div>
         <p class="body-text reveal reveal-delay-3" style="margin-top: 32px; text-align: center; color: var(--dim);">
+            For thirty years, the best the market could offer was VIX: a number that requires a PhD to translate.<br>
             No translation. No conversion table. No&nbsp;model&nbsp;required.<br>
-            The number is the&nbsp;answer.<br>
-            A simple probability.
+            The number is the&nbsp;answer. A simple probability.
         </p>
     </div>
 </section>
@@ -1026,29 +1033,36 @@ body {
                     <tr class="crisis-active">
                         <td><span class="stage-name">Volmageddon</span></td>
                         <td><span class="stage-vix">37</span></td>
-                        <td class="stage-pix" style="color: var(--green);">35.9<div class="pix-bar" style="width: 48%;"></div></td>
-                        <td class="stage-english">1-in-3 chance of <em>another</em> 10% down.</td>
+                        <td class="stage-pix" style="color: var(--green);">36.9<div class="pix-bar" style="width: 49%;"></div></td>
+                        <td class="stage-english">1-in-3 chance of <em>another</em> 10% down. Jumped from 1.2 in a single day.</td>
                     </tr>
                     <tr class="crisis-active">
                         <td><span class="stage-name">GFC / Lehman</span></td>
-                        <td><span class="stage-vix">65</span></td>
-                        <td class="stage-pix" style="color: var(--amber);">61.6<div class="pix-bar" style="width: 82%;"></div></td>
-                        <td class="stage-english">More likely than not it gets much worse.</td>
+                        <td><span class="stage-vix">80.9</span></td>
+                        <td class="stage-pix" style="color: var(--amber);">69.6<div class="pix-bar" style="width: 93%;"></div></td>
+                        <td class="stage-english">More likely than not it gets much worse. VIX hit 80.9.</td>
                     </tr>
                     <tr class="crisis-active">
                         <td><span class="stage-name">COVID Peak</span></td>
                         <td><span class="stage-vix">82.7</span></td>
-                        <td class="stage-pix" style="color: var(--red);">70.3<div class="pix-bar" style="width: 94%;"></div></td>
+                        <td class="stage-pix" style="color: var(--red);">70.4<div class="pix-bar" style="width: 94%;"></div></td>
                         <td class="stage-english">2-in-3 odds of <em>another</em>&nbsp;10% from the worst point of the crisis.</td>
+                    </tr>
+                    <tr class="crisis-active">
+                        <td><span class="stage-name">2025 Tariffs</span></td>
+                        <td><span class="stage-vix">52</span></td>
+                        <td class="stage-pix" style="color: var(--amber);">53.3<div class="pix-bar" style="width: 71%;"></div></td>
+                        <td class="stage-english">SPX down 12% in two weeks. Rose from 2.4; reversed instantly on policy change.</td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
         <p class="body-text reveal reveal-delay-4" style="margin-top: 28px; text-align: center; color: var(--dim); font-size: 14px;">
-            At COVID peak, SPX was already down 30%+ from highs.
-            PIX was saying 70.3%: a 2-in-3 chance it gets <em>another</em> 10% worse.
-            The number was terrifying. It was also right.
+            At COVID peak, SPX was already down 34% in 23 days. PIX rose from 0.7 to 70.3:
+            a 2-in-3 chance it gets <em>another</em> 10% worse.
+            The 2025 Tariff Shock: SPX fell 12% in two weeks, PIX rose from 2.4 to 53.3,
+            then immediately declined when policy reversed. Symmetric response. Real data, not a model.
         </p>
     </div>
 </section>
@@ -1278,6 +1292,133 @@ body {
 
 
 <!-- ══════════════════════════════════════════════════════ -->
+<!--  BEAT 8: THREE CHANNELS, SAME FORCE                   -->
+<!-- ══════════════════════════════════════════════════════ -->
+<section class="section">
+    <div class="section-inner">
+        <div class="section-label reveal">The Economics</div>
+        <div class="section-title reveal reveal-delay-1">
+            Three Channels. <em>Same Force.</em>
+        </div>
+        <p class="lead reveal reveal-delay-2">
+            The variance risk premium is a persistent, structural feature of derivatives markets.
+            Protection is systematically overpriced. These are the three channels for harvesting it.
+        </p>
+
+        <div class="reveal reveal-delay-3" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 40px;">
+            <!-- Short SPX Puts -->
+            <div style="background: var(--card); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 28px 24px; position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--red);"></div>
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: 2px; color: var(--red); margin-bottom: 14px;">SHORT SPX PUTS</div>
+                <div style="font-size: 14px; color: var(--white); font-weight: 600; margin-bottom: 12px;">Sell a 10% OTM put monthly. Roll or let expire.</div>
+                <div style="font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 16px;">Steady premium income but modest relative to capital at risk. Margin escalates as the market falls. Delta hedging required. Monthly operational overhead.</div>
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--red); letter-spacing: 1px;">~$6K/yr &middot; Unbounded risk &middot; Escalating margin</div>
+            </div>
+            <!-- Short VIX Futures -->
+            <div style="background: var(--card); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 28px 24px; position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--amber);"></div>
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: 2px; color: var(--amber); margin-bottom: 14px;">SHORT VIX FUTURES</div>
+                <div style="font-size: 14px; color: var(--white); font-weight: 600; margin-bottom: 12px;">Short the front month. Roll monthly. Collect contango ~85% of the time.</div>
+                <div style="font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 16px;">No delta hedging. But VIX has no upper bound. When vol spikes, losses are linear and margin escalates simultaneously. The double hit that forces liquidation at the worst moment.</div>
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--amber); letter-spacing: 1px;">~$12K/yr &middot; Unbounded risk &middot; No defined max loss</div>
+            </div>
+            <!-- Short PIX-PERP -->
+            <div style="background: var(--card); border: 2px solid var(--border); border-radius: 12px; padding: 28px 24px; position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--green);"></div>
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: 2px; color: var(--green); margin-bottom: 14px;">SHORT PIX-PERP</div>
+                <div style="font-size: 14px; color: var(--white); font-weight: 600; margin-bottom: 12px;">One position. No roll. No expiration. Funding collects continuously.</div>
+                <div style="font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 16px;">Funding rate trades in no-arb relationship with VIX contango and the broader replicating instruments. The only channel where risk is bounded 0 to 100 and max loss can be fully funded at entry.</div>
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--green); letter-spacing: 1px;">~$12K/yr (4 PERPs) &middot; Bounded risk &middot; Full collateral option</div>
+            </div>
+        </div>
+
+        <!-- Capital Efficiency Table -->
+        <div class="highlight-card reveal reveal-delay-4" style="margin-top: 36px;">
+            <div class="card-label">Capital Efficiency at Equivalent Income (~$12K/yr)</div>
+            <table style="width: 100%; border-collapse: separate; border-spacing: 0 8px; font-family: 'JetBrains Mono', monospace; font-size: 14px; margin-top: 12px;">
+                <thead>
+                    <tr style="font-size: 11px; letter-spacing: 2px; text-transform: uppercase;">
+                        <th style="text-align: left; color: var(--muted); padding: 8px 12px;">Survival Level</th>
+                        <th style="text-align: center; color: var(--amber); padding: 8px 12px;" colspan="2">VIX Future</th>
+                        <th style="text-align: center; color: var(--green); padding: 8px 12px;" colspan="2">PIX-PERP</th>
+                    </tr>
+                    <tr style="font-size: 10px; color: var(--dim);">
+                        <th style="text-align: left; padding: 0 12px 8px;"></th>
+                        <th style="text-align: center; padding: 0 12px 8px;">Capital</th>
+                        <th style="text-align: center; padding: 0 12px 8px;">APR</th>
+                        <th style="text-align: center; padding: 0 12px 8px;">Capital</th>
+                        <th style="text-align: center; padding: 0 12px 8px;">APR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: rgba(255,255,255,0.03); border-radius: 6px;">
+                        <td style="padding: 10px 12px; color: var(--text);">Survive VIX 35</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--amber);">$30,000</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--amber);">40%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">$11,000</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">109%</td>
+                    </tr>
+                    <tr style="background: rgba(255,255,255,0.03); border-radius: 6px;">
+                        <td style="padding: 10px 12px; color: var(--text);">Survive VIX 50</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--amber);">$43,000</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--amber);">28%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">$18,100</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">66%</td>
+                    </tr>
+                    <tr style="background: rgba(255,255,255,0.03); border-radius: 6px;">
+                        <td style="padding: 10px 12px; color: var(--text);">Survive VIX 80</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--amber);">$80,000</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--amber);">15%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">$25,700</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">47%</td>
+                    </tr>
+                    <tr style="background: rgba(0,255,136,0.06); border-radius: 6px;">
+                        <td style="padding: 10px 12px; color: var(--green); font-weight: 600;">Full Collateral</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--dim);">impossible</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--dim);">n/a</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-weight: 600;">$38,000</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-weight: 600;">32%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 13px; color: var(--muted); margin-top: 16px; line-height: 1.7;">
+                <span class="emphasis">Important:</span> PIX-PERP income is estimated under no-arb equivalence with VIX futures contango.
+                In practice, PIX-PERP funding will be market-determined and will likely settle at or below VIX contango rates.
+                Because the short side benefits from bounded, defined max loss with no liquidation risk,
+                shorts will rationally accept lower carry than they would on unbounded instruments.
+                The capital efficiency advantage at every tier is a structural consequence of probability concavity, not an assumption about funding levels.
+            </p>
+        </div>
+
+        <!-- Why Both Sides Win -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 36px;" class="reveal">
+            <div class="highlight-card" style="margin: 0;">
+                <div class="card-label" style="color: var(--amber);">Why Shorts Accept Lower Carry</div>
+                <p style="margin-bottom: 16px; font-size: 15px; color: var(--muted); line-height: 1.7;">
+                    Bounded 0 to 100. Max loss defined and funded at entry. No margin escalation. No forced liquidation. No unlimited tail.
+                    The risk architecture is structurally superior to short VIX futures at every level.
+                </p>
+                <p style="color: var(--amber); font-weight: 600; font-size: 15px;">
+                    The discount to VIX contango IS the price of bounded risk. It is a feature, not a flaw.
+                </p>
+            </div>
+            <div class="highlight-card" style="margin: 0;">
+                <div class="card-label">Why Longs Pay Less and Still Win</div>
+                <p style="margin-bottom: 16px; font-size: 15px; color: var(--muted); line-height: 1.7;">
+                    PIX convexity is steepest in the VIX 15 to 50 range. That is the acceleration zone,
+                    where spot approaching barriers and implied vol expansion compound most aggressively.
+                    A protection buyer playing this range gets more bang for the buck on PIX than VIX.
+                </p>
+                <p style="color: var(--green); font-weight: 600; font-size: 15px;">
+                    Cheaper funding for the range where protection matters most. The long side wins where it counts.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════ -->
 <!--  BEAT 9: THE SURFACE                                  -->
 <!-- ══════════════════════════════════════════════════════ -->
 <section class="section">
@@ -1333,6 +1474,18 @@ body {
             SPX downside probability surface at current market conditions.
             Highlighted: the flagship SPX-PIX-30D-DN10% at 9.7.
         </p>
+
+        <div class="highlight-card reveal reveal-delay-5" style="margin-top: 28px;">
+            <div class="card-label">The Skew in Probability Language</div>
+            <p style="font-size: 16px; color: var(--text); line-height: 1.8;">
+                At VIX 26, 30D-DN10% reads 18.1 while 30D-UP10% reads 11.1.
+                A <span style="color: var(--green); font-weight: 700;">1.63&times; ratio</span>.
+                That is the equity put skew translated into probability language.
+                The market prices downside moves as more likely than equivalent upside moves,
+                and PIX makes that asymmetry visible in a single comparison.
+                No model required.
+            </p>
+        </div>
 
         <p class="body-text reveal reveal-delay-5" style="margin-top: 32px;">
             And the matrix extends beyond the S&amp;P 500. <span class="emphasis">BTC-PIX-30D-DN20%</span> measures
@@ -1411,23 +1564,23 @@ body {
                 <div class="fw-grid">
                     <div class="fw-card">
                         <div class="fw-card-num">01</div>
-                        <div class="fw-card-title">Trading on 100s</div>
-                        <div class="fw-card-desc">Every trade generates probability signal from real capital at risk.</div>
+                        <div class="fw-card-title">PERP Demand</div>
+                        <div class="fw-card-desc">PIX-PERP demand creates basis between the perpetual and the underlying PIX Cash Index.</div>
                     </div>
                     <div class="fw-card">
                         <div class="fw-card-num">02</div>
-                        <div class="fw-card-title">PIX Gets Sharper</div>
-                        <div class="fw-card-desc">More data sources and deeper liquidity improve the index.</div>
+                        <div class="fw-card-title">Basis Creates Arb</div>
+                        <div class="fw-card-desc">Basis creates arbitrage opportunity in the underlying 100s Touch/Settle markets. Market makers close the gap.</div>
                     </div>
                     <div class="fw-card">
                         <div class="fw-card-num">03</div>
-                        <div class="fw-card-title">Arbitrage Connects</div>
-                        <div class="fw-card-desc">Cross-market arb pulls external liquidity into the ecosystem.</div>
+                        <div class="fw-card-title">Liquidity Deepens</div>
+                        <div class="fw-card-desc">Arb flow deepens 100s liquidity. More sources and tighter spreads sharpen the PIX reading.</div>
                     </div>
                     <div class="fw-card">
                         <div class="fw-card-num">04</div>
-                        <div class="fw-card-title">Adoption Grows</div>
-                        <div class="fw-card-desc">Tighter spreads and better prices attract more participants.</div>
+                        <div class="fw-card-title">Better PIX, More Flow</div>
+                        <div class="fw-card-desc">A sharper, more trusted PIX attracts more PERP flow. The cycle accelerates with every turn.</div>
                     </div>
                 </div>
                 <!-- Spinning arrow hub in the center -->
@@ -1437,8 +1590,8 @@ body {
                     </div>
                 </div>
             </div>
-            <p class="body-text" style="text-align: center; margin-top: 20px; color: var(--dim); font-size: 14px;">
-                Every instrument that touches probability pricing becomes part of the PIX signal.
+            <p class="body-text" style="text-align: center; margin-top: 20px; color: var(--dim); font-size: 14px; text-wrap: balance;">
+                Every instrument that touches probability pricing becomes part of the PIX signal.<br>
                 The more markets connect, the more trustworthy the number becomes.
             </p>
         </div>
@@ -1497,10 +1650,78 @@ body {
             </div>
         </div>
 
-        <p class="body-text reveal" style="text-align: center; margin-top: 28px; font-size: 14px; color: var(--dim);">
+        <p class="body-text reveal" style="text-align: center; margin-top: 28px; font-size: 14px; color: var(--dim); text-wrap: balance;">
             A single trade at the top generates multiple turns of hedging flow
-            by the time it reaches the underlying market. That is the volume multiplier.
+            by the time it reaches the underlying market.<br>That is the volume multiplier.
         </p>
+    </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  BEAT 13: THE LEVERAGE UNLOCK                         -->
+<!-- ══════════════════════════════════════════════════════ -->
+<section class="section">
+    <div class="section-inner">
+        <div class="section-label reveal">The Unlock</div>
+        <div class="section-title reveal reveal-delay-1">
+            Leverage on Prediction Markets.<br><em>The Architectural Breakthrough.</em>
+        </div>
+        <p class="lead reveal reveal-delay-2">
+            Everyone in the prediction market space knows leverage is the killer unlock.
+            It is what turns a niche product into an institutional asset class.
+            But every attempt to bolt leverage onto raw binary contracts hits the same wall.
+        </p>
+
+        <div class="highlight-card reveal reveal-delay-3">
+            <div class="card-label">The Problem</div>
+            <p style="margin-bottom: 16px;">
+                Prediction market contracts move 10%, 20%, 50%, even 80% in a heartbeat.
+                A price move from 60&cent; to 30&cent; wipes out any position at 2&times; leverage.
+                The insurance fund math does not work. Socialized loss destroys the experience
+                for participants on the right side of the trade.
+            </p>
+            <p style="color: var(--dim);">
+                This has been a structural dead end for prediction markets.
+                The industry knows leverage is a monumental unlock, but nobody has found the architecture to support it.
+            </p>
+        </div>
+
+        <div class="highlight-card reveal reveal-delay-4">
+            <div class="card-label">The Solution: PIX</div>
+            <p style="margin-bottom: 16px;">
+                PIX is an <span class="emphasis" style="color:var(--green);">index</span>. A continuous, smooth,
+                mean-reverting number derived from a portfolio of underlying contracts across a strip of barriers and tenors.
+                The individual 100s contracts underneath can jump wildly. But PIX, because it synthesizes across the strip,
+                smooths those jumps into a continuous surface that moves in an orderly, modelable fashion.
+            </p>
+            <p style="margin-bottom: 16px;">
+                That means you can run a perpetual futures contract on PIX with standard margin, standard liquidation engines,
+                and a clearinghouse guarantee fund that is actually sizeable against real worst-case scenarios.
+                The worst case is structurally bounded and the path to get there is smooth enough that the liquidation engine can actually function.
+            </p>
+            <p style="color: var(--green); font-weight: 600; font-size: 17px; line-height: 1.7;">
+                The underlying 100s contracts remain fully collateralized. No leverage. No margin calls. No liquidation.
+                That is Tier 1, the bedrock. PIX-PERP sits on top as Tier 2, offering leverage on a bounded, continuous,
+                mean-reverting index that feeds off the liquid markets of fully collateralized components beneath it.
+                The leverage does not touch the foundation. The foundation makes the leverage safe.
+            </p>
+        </div>
+
+        <div class="stat-row reveal">
+            <div class="stat-item">
+                <div class="stat-number">Tier 1</div>
+                <div class="stat-desc">100s contracts. $1 notional. Fully collateralized. No leverage. No liquidation.</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">Tier 2</div>
+                <div class="stat-desc">PIX-PERP. Leverage on a bounded, mean-reverting index. Standard margin. Patent-protected.</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">Result</div>
+                <div class="stat-desc">The first architecture that makes leveraged prediction market exposure structurally sound.</div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -1617,8 +1838,8 @@ body {
                 <div class="evidence-label">Brier score (lower = better, 0 = perfect)</div>
             </div>
             <div class="evidence-stat">
-                <div class="evidence-number">9</div>
-                <div class="evidence-label">Major crises validated</div>
+                <div class="evidence-number">&rho; = 0.905</div>
+                <div class="evidence-label">PIX-VIX correlation across 19 years</div>
             </div>
         </div>
 
@@ -1629,6 +1850,7 @@ body {
         <p class="body-text reveal reveal-delay-4" style="text-align: center; margin-top: 20px;">
             When PIX reads 7%, the barrier is crossed approximately 7% of the time.
             <span class="emphasis">Calibrated probabilities that match realized frequency across two decades.</span>
+            Same protection demand as VIX, &rho;=0.905 across 19 years. VIX reads it as annualized vol. PIX reads it as probability.
         </p>
     </div>
 </section>
