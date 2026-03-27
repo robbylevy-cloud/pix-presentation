@@ -932,7 +932,7 @@ body {
                 drops 10% or more within&nbsp;30&nbsp;days.
             </div>
             <div class="reading-context">
-                COVID peak (March&nbsp;2020):&nbsp;70.3% &middot; Calm&nbsp;markets:&nbsp;low&nbsp;single&nbsp;digits
+                COVID peak (March&nbsp;2020):&nbsp;70.4% &middot; Calm&nbsp;markets:&nbsp;low&nbsp;single&nbsp;digits
             </div>
         </div>
         <p class="body-text reveal reveal-delay-3" style="margin-top: 32px; text-align: center; color: var(--dim);">
@@ -1006,8 +1006,8 @@ body {
                 <thead>
                     <tr>
                         <th>Stage</th>
-                        <th>VIX</th>
-                        <th style="text-align:right;">PIX-30D-DN10%</th>
+                        <th>VIX 30D</th>
+                        <th style="text-align:right;">PIX 30D-DN10%</th>
                         <th style="text-align:right;">Plain English</th>
                     </tr>
                 </thead>
@@ -1059,7 +1059,7 @@ body {
         </div>
 
         <p class="body-text reveal reveal-delay-4" style="margin-top: 28px; text-align: center; color: var(--dim); font-size: 14px;">
-            At COVID peak, SPX was already down 34% in 23 days. PIX rose from 0.7 to 70.3:
+            At COVID peak, SPX was already down 34% in 23 days. PIX rose from 0.7 to 70.4:
             a 2-in-3 chance it gets <em>another</em> 10% worse.
             The 2025 Tariff Shock: SPX fell 12% in two weeks, PIX rose from 2.4 to 53.3,
             then immediately declined when policy reversed. Symmetric response. Real data, not a model.
@@ -1089,14 +1089,14 @@ body {
                 <div class="trade-title">Buying Protection</div>
                 <div class="trade-body">
                     You believe a crisis is coming, vol is about to spike, the market is underpricing tail risk, or you have heavy risk-on exposure.
-                    No options chain to navigate. No Greeks to manage. No rolls. One position, always on.
+                    No options chain to navigate. No rolls. One position, always on.
                 </div>
                 <div class="trade-scenario">
                     <div class="label">Scenario</div>
                     <span style="color: var(--muted);">Entry: 9.7</span>
                     <span class="trade-arrow">&rarr;</span>
-                    <span style="color: var(--green); font-weight: 700;">Crisis: 70.3</span>
-                    <div style="margin-top: 8px; color: var(--green); font-size: 13px;">+60.6 pts &middot; $6,060 per contract (at $100/pt)</div>
+                    <span style="color: var(--green); font-weight: 700;">Crisis: 70.4</span>
+                    <div style="margin-top: 8px; color: var(--green); font-size: 13px;">+60.7 pts &middot; $6,070 per contract (at $100/pt)</div>
                 </div>
             </div>
 
@@ -1127,22 +1127,97 @@ body {
     <div class="section-inner">
         <div class="section-label reveal">The Opportunity</div>
         <div class="section-title reveal reveal-delay-1">
-            When Protection Prices Explode,<br><em>Do You Have Dry Powder?</em>
+            Both Sides Pay.<br><em>Both Sides Are Bounded.</em>
         </div>
+
+        <!-- ===== LONG SIDE: THE HEDGE ===== -->
         <p class="lead reveal reveal-delay-2">
-            PIX at 70.3 means the cost of crash protection has exploded to its highest levels in years.
+            A fund buys PIX-PERP as a tail hedge overlay. Pays modest carry in calm markets.
+            Then uncertainty rushes in, the probability of larger moves increases dramatically,
+            and the position does exactly what it was designed to do.
+        </p>
+
+        <!-- Long-side position share card -->
+        <div class="reveal reveal-delay-3" style="max-width: 520px; margin: 40px auto 0;">
+            <div style="background: var(--card); border: 1px solid var(--border); border-radius: 16px; position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--green), rgba(0,255,136,0.3));"></div>
+                <div style="padding: 24px 24px 20px;">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+                        <div style="width: 40px; height: 40px; border-radius: 50%; background: var(--card2); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700; color: var(--green);">TR</div>
+                        <div>
+                            <div style="font-size: 15px; font-weight: 600; color: var(--white);">TailRiskPM</div>
+                            <div style="font-size: 13px; color: var(--dim);">@tailriskpm &middot; 4h</div>
+                        </div>
+                    </div>
+                    <div style="font-size: 15px; color: var(--text); line-height: 1.65;">
+                        Bought PIX as a tail hedge overlay three months ago. Paid modest funding as the cost of protection. Market corrected 6% this week. The hedge just paid for itself and then some. One position. No rolls. This is what the overlay is supposed to look like.
+                    </div>
+                </div>
+                <div style="margin: 0 16px 16px; background: var(--card2); border: 1px solid var(--border-subtle); border-radius: 12px; overflow: hidden;">
+                    <div style="padding: 20px 20px 0;">
+                        <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--dim); margin-bottom: 6px;">100s &middot; Position Share</div>
+                        <div style="font-family: 'JetBrains Mono', monospace; font-size: 22px; font-weight: 700; color: var(--green); letter-spacing: 2px;">&#9650; PIX-PERP <span style="font-size: 16px; color: var(--muted); letter-spacing: 1px; font-weight: 500;">SPX-PIX-30D-DN10%</span></div>
+                        <div style="font-family: 'JetBrains Mono', monospace; font-size: 16px; font-weight: 700; color: var(--green); margin-top: 6px; letter-spacing: 2px;">LONG 50 CONTRACTS</div>
+                    </div>
+                    <div style="padding: 20px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
+                        <div>
+                            <div style="font-size: 13px; color: var(--dim); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px;">Entry</div>
+                            <div style="font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: 700; color: var(--white);">9.7</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 13px; color: var(--dim); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px;">Mark</div>
+                            <div style="font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: 700; color: var(--green);">27.1</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 13px; color: var(--dim); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px;">ROI</div>
+                            <div style="font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: 700; color: var(--green);">+179%</div>
+                        </div>
+                    </div>
+                    <div style="padding: 0 20px 20px;">
+                        <div style="background: rgba(0,255,136,0.08); border-radius: 8px; padding: 12px 16px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                <div style="font-size: 13px; color: var(--muted);">Unrealized P&amp;L</div>
+                                <div style="font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 700; color: var(--green);">+$87,000</div>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div style="font-size: 12px; color: var(--dim);">Funding paid (3 months)</div>
+                                <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--dim);">&minus;$14,475</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="body-text reveal" style="text-align: center; margin-top: 24px; font-size: 14px; color: var(--dim); text-wrap: balance;">
+            A correction, not a crisis. The probability of a 10% drop in the next 30 days moves from 9.7% to 27.1%.<br>
+            Per contract ($100/pt): entry at 9.7, mark at 27.1 = <span style="color: var(--green); font-weight: 600;">+$1,740 gain</span>.
+            Funding cost over 3 months: ~$289. The hedge paid 6&times; its cost.
+        </p>
+
+        <!-- ===== TRANSITION TO SHORT SIDE ===== -->
+        <div style="width: 40px; height: 1px; background: var(--green); opacity: 0.3; margin: 56px auto 0;" class="reveal"></div>
+
+        <div class="reveal" style="margin-top: 56px;">
+            <div class="section-label">The Other Side</div>
+            <div class="section-title" style="margin-bottom: 20px;">
+                When Protection Prices Explode,<br><em>Do You Have Dry Powder?</em>
+            </div>
+        </div>
+        <p class="lead reveal">
+            PIX at 70 means the cost of crash protection has exploded to its highest levels in years.
             The derivatives market is pricing a 70% chance of another 10% down from here.
             <span class="emphasis">Insurance has never been more expensive.</span>
         </p>
-        <p class="body-text reveal reveal-delay-3" style="margin-top: 20px;">
+        <p class="body-text reveal" style="margin-top: 20px;">
             For every crisis buyer scrambling to pay up for protection, there is a calculated opportunity on the other side.
             Selling PIX at elevated levels is taking a position that things will calm down, with your total risk and reward
             defined before you enter. Fear makes protection prices explode. PIX lets you take advantage
             of it in one position.
         </p>
 
-        <!-- Position share card -->
-        <div class="reveal reveal-delay-3" style="max-width: 520px; margin: 40px auto 0;">
+        <!-- Short-side position share card -->
+        <div class="reveal" style="max-width: 520px; margin: 40px auto 0;">
             <div style="background: var(--card); border: 1px solid var(--border); border-radius: 16px; position: relative; overflow: hidden;">
                 <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--amber), var(--green));"></div>
                 <div style="padding: 24px 24px 20px;">
@@ -1199,7 +1274,7 @@ body {
                         <tr class="crisis-active">
                             <td><span class="stage-name">Entry (crisis peak)</span></td>
                             <td><span class="stage-vix">82.7</span></td>
-                            <td class="stage-pix" style="color: var(--red); font-size: 18px;">70.3</td>
+                            <td class="stage-pix" style="color: var(--red); font-size: 18px;">70.4</td>
                             <td style="text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 15px; color: var(--dim);">0.0</td>
                             <td style="text-align: right; font-size: 14px; color: var(--dim);">Shorts paying</td>
                         </tr>
@@ -1235,7 +1310,7 @@ body {
                 </table>
             </div>
             <p style="text-align: center; font-size: 14px; color: var(--dim); margin-top: 14px;">
-                Per contract ($100/pt): a short at 70.0 that settles around 20.7 = <span style="color: var(--green); font-weight: 600;">+$4,960 gain</span>.
+                Per contract ($100/pt): a short at 70.0 that settles around 20.7 = <span style="color: var(--green); font-weight: 600;">+$4,930 gain</span>.
                 Max loss per contract was $3,000 (PIX can never exceed 100). Fully defined at entry.
                 And VIX is <em>still</em> elevated at 27: more room to run.
             </p>
@@ -1326,21 +1401,22 @@ body {
             <div style="background: var(--card); border: 2px solid var(--border); border-radius: 12px; padding: 28px 24px; position: relative; overflow: hidden;">
                 <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--green);"></div>
                 <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: 2px; color: var(--green); margin-bottom: 14px;">SHORT PIX-PERP</div>
-                <div style="font-size: 14px; color: var(--white); font-weight: 600; margin-bottom: 12px;">One position. No roll. No expiration. Funding collects continuously.</div>
+                <div style="font-size: 14px; color: var(--white); font-weight: 600; margin-bottom: 12px;">One position. No roll. No expiration. Funding collects ~85% of the time.</div>
                 <div style="font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 16px;">Funding rate trades in no-arb relationship with VIX contango and the broader replicating instruments. The only channel where risk is bounded 0 to 100 and max loss can be fully funded at entry.</div>
-                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--green); letter-spacing: 1px;">~$12K/yr (4 PERPs) &middot; Bounded risk &middot; Full collateral option</div>
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--green); letter-spacing: 1px;">Same APR &middot; 60-70% less capital &middot; Bounded risk &middot; Full collateral option</div>
             </div>
         </div>
 
         <!-- Capital Efficiency Table -->
         <div class="highlight-card reveal reveal-delay-4" style="margin-top: 36px;">
-            <div class="card-label">Capital Efficiency at Equivalent Income (~$12K/yr)</div>
+            <div class="card-label">Same Return. Less Capital. (4 PERPs vs. 1 VIX Future)</div>
             <table style="width: 100%; border-collapse: separate; border-spacing: 0 8px; font-family: 'JetBrains Mono', monospace; font-size: 14px; margin-top: 12px;">
                 <thead>
                     <tr style="font-size: 11px; letter-spacing: 2px; text-transform: uppercase;">
                         <th style="text-align: left; color: var(--muted); padding: 8px 12px;">Survival Level</th>
                         <th style="text-align: center; color: var(--amber); padding: 8px 12px;" colspan="2">VIX Future</th>
-                        <th style="text-align: center; color: var(--green); padding: 8px 12px;" colspan="2">PIX-PERP</th>
+                        <th style="text-align: center; color: var(--green); padding: 8px 12px;" colspan="2">PIX-PERP (4)</th>
+                        <th style="text-align: center; color: var(--green); padding: 8px 12px;">Cap Freed</th>
                     </tr>
                     <tr style="font-size: 10px; color: var(--dim);">
                         <th style="text-align: left; padding: 0 12px 8px;"></th>
@@ -1348,6 +1424,7 @@ body {
                         <th style="text-align: center; padding: 0 12px 8px;">APR</th>
                         <th style="text-align: center; padding: 0 12px 8px;">Capital</th>
                         <th style="text-align: center; padding: 0 12px 8px;">APR</th>
+                        <th style="text-align: center; padding: 0 12px 8px;"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1355,51 +1432,55 @@ body {
                         <td style="padding: 10px 12px; color: var(--text);">Survive VIX 35</td>
                         <td style="padding: 10px 12px; text-align: center; color: var(--amber);">$30,000</td>
                         <td style="padding: 10px 12px; text-align: center; color: var(--amber);">40%</td>
-                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">$11,000</td>
-                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">109%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">$10,005</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">40%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-weight: 600;">67%</td>
                     </tr>
                     <tr style="background: rgba(255,255,255,0.03); border-radius: 6px;">
                         <td style="padding: 10px 12px; color: var(--text);">Survive VIX 50</td>
                         <td style="padding: 10px 12px; text-align: center; color: var(--amber);">$43,000</td>
                         <td style="padding: 10px 12px; text-align: center; color: var(--amber);">28%</td>
-                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">$18,100</td>
-                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">66%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">$16,538</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">28%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-weight: 600;">62%</td>
                     </tr>
                     <tr style="background: rgba(255,255,255,0.03); border-radius: 6px;">
                         <td style="padding: 10px 12px; color: var(--text);">Survive VIX 80</td>
                         <td style="padding: 10px 12px; text-align: center; color: var(--amber);">$80,000</td>
                         <td style="padding: 10px 12px; text-align: center; color: var(--amber);">15%</td>
-                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">$25,700</td>
-                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">47%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">$23,353</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green);">15%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-weight: 600;">71%</td>
                     </tr>
                     <tr style="background: rgba(0,255,136,0.06); border-radius: 6px;">
                         <td style="padding: 10px 12px; color: var(--green); font-weight: 600;">Full Collateral</td>
                         <td style="padding: 10px 12px; text-align: center; color: var(--dim);">impossible</td>
                         <td style="padding: 10px 12px; text-align: center; color: var(--dim);">n/a</td>
-                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-weight: 600;">$38,000</td>
-                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-weight: 600;">32%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-weight: 600;">$36,120</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-weight: 600;">~10%</td>
+                        <td style="padding: 10px 12px; text-align: center; color: var(--green); font-size: 11px;">VIX cannot</td>
                     </tr>
                 </tbody>
             </table>
             <p style="font-size: 13px; color: var(--muted); margin-top: 16px; line-height: 1.7;">
-                <span class="emphasis">Important:</span> PIX-PERP income is estimated under no-arb equivalence with VIX futures contango.
-                In practice, PIX-PERP funding will be market-determined and will likely settle at or below VIX contango rates.
-                Because the short side benefits from bounded, defined max loss with no liquidation risk,
-                shorts will rationally accept lower carry than they would on unbounded instruments.
-                The capital efficiency advantage at every tier is a structural consequence of probability concavity, not an assumption about funding levels.
+                <span class="emphasis">The structural advantage is capital efficiency, not higher yield.</span>
+                In equilibrium, arbitrage forces PIX-PERP funding to converge with VIX contango rates.
+                Shorts earn the same APR on 60 to 70% less capital.
+                The freed capital can be deployed elsewhere. And only PIX-PERP offers full collateral as an option:
+                zero liquidation risk at any level, something that is structurally impossible with VIX futures.
             </p>
         </div>
 
         <!-- Why Both Sides Win -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 36px;" class="reveal">
             <div class="highlight-card" style="margin: 0;">
-                <div class="card-label" style="color: var(--amber);">Why Shorts Accept Lower Carry</div>
+                <div class="card-label" style="color: var(--amber);">Why Shorts Need Less Capital</div>
                 <p style="margin-bottom: 16px; font-size: 15px; color: var(--muted); line-height: 1.7;">
                     Bounded 0 to 100. Max loss defined and funded at entry. No margin escalation. No forced liquidation. No unlimited tail.
-                    The risk architecture is structurally superior to short VIX futures at every level.
+                    At any given survival level, the PIX-PERP short posts 60 to 70% less capital than the equivalent VIX futures short.
                 </p>
                 <p style="color: var(--amber); font-weight: 600; font-size: 15px;">
-                    The discount to VIX contango IS the price of bounded risk. It is a feature, not a flaw.
+                    Same return on less capital. The freed capital is the structural edge.
                 </p>
             </div>
             <div class="highlight-card" style="margin: 0;">
@@ -1478,7 +1559,8 @@ body {
         <div class="highlight-card reveal reveal-delay-5" style="margin-top: 28px;">
             <div class="card-label">The Skew in Probability Language</div>
             <p style="font-size: 16px; color: var(--text); line-height: 1.8;">
-                At VIX 26, 30D-DN10% reads 18.1 while 30D-UP10% reads 11.1.
+                The surface above shows calm conditions. At elevated levels (VIX 26),
+                30D-DN10% reads 18.1 while 30D-UP10% reads 11.1.
                 A <span style="color: var(--green); font-weight: 700;">1.63&times; ratio</span>.
                 That is the equity put skew translated into probability language.
                 The market prices downside moves as more likely than equivalent upside moves,
@@ -1528,7 +1610,7 @@ body {
             <div class="source-item">
                 <div class="source-icon">&#9670;</div>
                 <div class="source-name">100s Touch/Settle</div>
-                <div class="source-desc">Direct first-passage probability contracts on the 100s exchange</div>
+                <div class="source-desc">Direct probability contracts traded on the 100s exchange</div>
             </div>
             <div class="source-item">
                 <div class="source-icon">&#9670;</div>
